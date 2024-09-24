@@ -19,3 +19,5 @@ CREATE TABLE tasks (
     name VARCHAR(50),
     user_id INTEGER
 );
+DROP TABLE IF EXISTS tasks;
+DROP TABLE IF EXISTS users;
